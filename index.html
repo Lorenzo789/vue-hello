@@ -20,6 +20,14 @@
         <input type="text" v-model="surName" placeholder="Insert your Surname">
 
         <h1 class="mt-4"> Hello!!! {{ name }} {{ surName }} </h1>
+        
+        <section class="text-center mx-auto">
+            <div>
+                <input class="mt-4" type="text" v-model="urlInput" placeholder="Insert url image">
+                <button class="btn btn-dark" @click="imgInput">Generate</button>
+            </div>
+            <img class="mt-4 ms_fit" :src="url" alt="">
+        </section>
     </main>
 
 

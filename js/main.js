@@ -5,6 +5,14 @@ const app = new Vue
         data: {
             name: "",
             surName: "",
+            url: "",
+            urlInput: ""
         },
+
+        methods: {
+            imgInput: function(){
+                this.url = this.urlInput;
+            }
+        }
     }
 );

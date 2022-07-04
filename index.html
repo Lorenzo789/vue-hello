@@ -16,8 +16,10 @@
 </head>
 <body>
     <main class="container text-center mt-4" id="root">
-        <input type="text" placeholder="Insert your Name">
-        <input type="text" placeholder="Insert your Surname">
+        <input type="text" v-model="name" placeholder="Insert your Name">
+        <input type="text" v-model="surName" placeholder="Insert your Surname">
+
+        <h1 class="mt-4"> Hello!!! {{ name }} {{ surName }} </h1>
     </main>
 
 

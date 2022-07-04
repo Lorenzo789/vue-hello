@@ -1,6 +1,10 @@
-const app = 
+const app = new Vue
 (
     {
-        el: 'root',
+        el: '#root',
+        data: {
+            name: "",
+            surName: "",
+        },
     }
 );
